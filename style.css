@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#my-form {
+    margin: 50vh auto;
+    transform: translateY(-50%);
+    max-width: 350px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    background-color: rgb(209, 195, 121);
+    line-height: 2em;
+    position: relative;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px rgba(209, 195, 121,0.7);
+}
+
+#my-form div label{
+    position: absolute;
+    left: 10px;
+    margin-top: 10px;
+    line-height: 1.5em;
+}
+#my-form input {
+    position: absolute;
+    left: 90px;
+    margin-top: 10px;
+    line-height: 1.5em;
+    border: 1px solid rgb(123, 118, 118);
+    width: 200px;
+}
+#my-form input[type=number]{
+    text-align: center;
+    width: 200px;
+}
+
+#my-form #submit{
+    position: absolute;
+    bottom: 34px;
+    border-radius: 55px;
+}
